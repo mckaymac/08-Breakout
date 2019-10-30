@@ -1,2 +1,2 @@
-# 08-Breakout
-The Breakout program/game for C220 Game Tech
+# Project-Template-Godot
+A generic template for a Godot project
