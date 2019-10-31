@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/OstrichSansInline-Regular.otf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 61
+font_data = ExtResource( 1 )
+
+[node name="SortaWin" type="Node2D"]
+
+[node name="Message" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Message"]
+margin_left = 183.396
+margin_top = 177.089
+margin_right = 869.396
+margin_bottom = 359.089
+color = Color( 0, 0, 0, 1 )
+
+[node name="Label" type="Label" parent="Message"]
+margin_left = 272.396
+margin_top = 218.178
+margin_right = 794.396
+margin_bottom = 317.178
+custom_fonts/font = SubResource( 1 )
+text = "You kinda won... try again!"
